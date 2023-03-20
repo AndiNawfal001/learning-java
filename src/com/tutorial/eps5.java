@@ -3,7 +3,7 @@
 package com.tutorial;
 
 class Mahasiswa {
-    String nama = "nama kosong";
+    String nama = "nama kosong ygy";
     String NIM = "NIM kosong";
 
     Mahasiswa(String nama, String NIM) {
