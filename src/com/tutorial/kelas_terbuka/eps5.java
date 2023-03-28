@@ -1,9 +1,7 @@
-// BELAJAR METHODS EPS 5
-
-package com.tutorial;
+package com.tutorial.kelas_terbuka;
 
 class Mahasiswa {
-    String nama = "nama kosong ygy";
+    String nama = "nama kosong";
     String NIM = "NIM kosong";
 
     Mahasiswa(String nama, String NIM) {
@@ -44,9 +42,9 @@ class Mahasiswa {
 
 public class eps5 {
     public static void main(String[] args) {
-        Mahasiswa mahasiswa1 = new Mahasiswa("Andi", "0042924640");
+        // Mahasiswa mahasiswa1 = new Mahasiswa("Andi", "0042924640");
         // System.out.println(mahasiswa1.ubahTampilkan("Andi Nawfal"));
-        mahasiswa1.show();
+        // mahasiswa1.show();
 
         // System.out.println(mahasiswa1.getNama());
         // System.out.println(mahasiswa1.getNIM());
